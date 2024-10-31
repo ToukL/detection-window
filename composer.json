@@ -1,0 +1,17 @@
+{
+    "name": "epoc/detection-window",
+    "description": "BIIGLE module to insert a detection window helping to annotate videos",
+    "keywords": ["biigle", "biigle-module"],
+    "license": "GPL-3.0-only",
+    "support": {
+      "source": "https://github.com/ToukL/detection-window",
+      "issues": "https://github.com/ToukL/detection-window/issues"
+    },
+    "homepage": "https://github.com/ToukL/detection-window#readme",
+    "author": "Anouk Liberge",
+    "autoload": {
+        "psr-4": {
+            "Biigle\\Modules\\DetectionWindow\\": "src"
+        }
+    }
+}
